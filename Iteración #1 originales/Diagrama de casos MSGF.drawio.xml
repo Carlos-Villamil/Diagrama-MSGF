@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="uedNlBwHoJWs7_25u7Nl">
+    <mxGraphModel dx="3071" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;horizontal=1;fontStyle=1;fontSize=16;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" value="MSG-F" vertex="1">
+          <mxGeometry height="420" width="260" x="300" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-2" parent="525YTk2xfZ9fOjKlvLuo-1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" value="Calcular Fondo" vertex="1">
+          <mxGeometry height="60" width="180" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-3" parent="525YTk2xfZ9fOjKlvLuo-1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" value="Gestionar hipoteca" vertex="1">
+          <mxGeometry height="60" width="180" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-4" parent="525YTk2xfZ9fOjKlvLuo-1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" value="Gestionar inversión" vertex="1">
+          <mxGeometry height="60" width="180" x="40" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-5" parent="525YTk2xfZ9fOjKlvLuo-1" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" value="Imprimir" vertex="1">
+          <mxGeometry height="60" width="180" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;" value="Empleado&#xa;MSG-F" vertex="1">
+          <mxGeometry height="80" width="40" x="160" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;fontStyle=1;" value="deudor,&#xa;(pareja)" vertex="1">
+          <mxGeometry height="80" width="40" x="660" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-8" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" target="525YTk2xfZ9fOjKlvLuo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-9" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" target="525YTk2xfZ9fOjKlvLuo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-10" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" target="525YTk2xfZ9fOjKlvLuo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-11" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;exitX=1;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" target="525YTk2xfZ9fOjKlvLuo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-12" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-7" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;exitX=0;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" target="525YTk2xfZ9fOjKlvLuo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

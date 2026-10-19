@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="uedNlBwHoJWs7_25u7Nl">
+    <mxGraphModel dx="1483" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-174" parent="1" style="shape=folder;fontStyle=1;tabWidth=130;tabHeight=35;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=10;" value="Clases Límite (&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;)" vertex="1">
+          <mxGeometry height="360" width="300" x="80" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-175" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=0;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#xa;PantallaMenuPrincipal" vertex="1">
+          <mxGeometry height="45" width="260" x="100" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-176" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=0;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#xa;InterfazCalcularFondo" vertex="1">
+          <mxGeometry height="45" width="260" x="100" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-177" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=0;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#xa;InterfazGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="260" x="100" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-178" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=0;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#xa;InterfazGestionInversion" vertex="1">
+          <mxGeometry height="45" width="260" x="100" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-179" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=0;" value="&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&#xa;InterfazImpresionReporte" vertex="1">
+          <mxGeometry height="45" width="260" x="100" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-180" parent="1" style="shape=folder;fontStyle=1;tabWidth=130;tabHeight=35;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;rounded=1;arcSize=10;" value="Clases de Control (&amp;lt;&amp;lt;control&amp;gt;&amp;gt;)" vertex="1">
+          <mxGeometry height="360" width="300" x="460" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-181" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#xa;GestorLoopSistema" vertex="1">
+          <mxGeometry height="45" width="260" x="480" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-182" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#xa;ControladorCalculoFondo" vertex="1">
+          <mxGeometry height="45" width="260" x="480" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-183" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#xa;ControladorGestionHipoteca" vertex="1">
+          <mxGeometry height="45" width="260" x="480" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-184" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#xa;ControladorGestionInversion" vertex="1">
+          <mxGeometry height="45" width="260" x="480" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-185" parent="1" style="html=1;whiteSpace=wrap;fontStyle=1;rounded=1;arcSize=15;shadow=1;" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&#xa;ControladorGenerarReporte" vertex="1">
+          <mxGeometry height="45" width="260" x="480" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-186" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-181" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1.5;" target="525YTk2xfZ9fOjKlvLuo-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-187" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-182" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1.5;" target="525YTk2xfZ9fOjKlvLuo-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-188" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-183" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1.5;" target="525YTk2xfZ9fOjKlvLuo-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-189" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-184" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1.5;" target="525YTk2xfZ9fOjKlvLuo-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="525YTk2xfZ9fOjKlvLuo-190" edge="1" parent="1" source="525YTk2xfZ9fOjKlvLuo-185" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#64748B;strokeWidth=1.5;" target="525YTk2xfZ9fOjKlvLuo-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
